@@ -1,0 +1,83 @@
+/* Add your custom styles here */
+
+body {
+    background-color: #111111; /* Ocean blue background color */
+    color: #fff; /* White text color */
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background for content containers */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Customize the footer with additional styles */
+footer {
+    background-color: #007ea7;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style links with a scuba diving theme */
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #007ea7;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-size: 18px;
+    color: #000000; /* Yellow on hover */
+}
+
+/* Style the current page link differently */
+.navbar-light .navbar-nav .nav-link.active {
+    font-size: 18px;
+    color: #15008c; /* Darker color for the current page */
+}
+
+.navbar-custom {
+    position: fixed; /* or absolute */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030; /* High z-index to float above other elements */
+}
+
+.carousel-indicators li {
+    text-indent: 0;
+    list-style-type: none; /* Removes default numbering */
+    width: 10px;  /* Adjust width as needed */
+    height: 10px; /* Adjust height as needed */
+    border-radius: 50%; /* Makes the indicators circular */
+    background-color: #000; /* Change the color as needed */
+}
+
+.carousel-item {
+    text-align: center; /* Aligns the content of the carousel item to the center */
+}
+
+.carousel-item img {
+    width: 100%;       /* Full width of the container */
+    height: 100%;      /* Full height of the container */
+    object-fit: cover; /* Resize image to cover the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner {
+    height: 900px; /* Adjust this value based on your desired carousel height */
+}
+
