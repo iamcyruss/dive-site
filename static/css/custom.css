@@ -5,7 +5,10 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: auto;
-    background-color: #111111; /* Ocean blue background color */
+    background-image: url('/static/img/slivertip.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    z-index: 1;
     color: #fff; /* White text color */
     font-family: 'Roboto', sans-serif;
 }
@@ -43,6 +46,12 @@ footer .linkedin img {
 .container-about {
     display: flex;
     height: 100vh; /* Full viewport height */
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    width: 300px;
 }
 
 .left-side, .right-side {
@@ -97,6 +106,8 @@ footer {
     position: fixed; /* Use fixed position instead of absolute */
     bottom: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
