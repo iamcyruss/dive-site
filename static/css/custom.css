@@ -5,7 +5,10 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: auto;
-    background-color: #111111; /* Ocean blue background color */
+    background-image: url('/static/img/slivertip.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    z-index: 1;
     color: #fff; /* White text color */
     font-family: 'Roboto', sans-serif;
 }
@@ -51,6 +54,7 @@ footer .linkedin img {
     height: 100vh; /* Full viewport height */
 }
 
+<<<<<<< HEAD
 #destinations-container {
     display: flex;
     flex-wrap: wrap;
@@ -128,6 +132,12 @@ footer .linkedin img {
     margin-bottom: 20px;
     margin-left: 30px;
     margin-right: 30px;
+=======
+.container-footer {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+>>>>>>> d82f3cfd45efc754d6d05a42aa67eedf1e3e55a8
 }
 
 .left-side, .right-side {
@@ -182,6 +192,8 @@ footer {
     position: fixed; /* Use fixed position instead of absolute */
     bottom: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
