@@ -16,6 +16,12 @@ h1 {
     color: #ae9f6a;
 }
 
+h2 {
+    font-size: 30px;
+    margin: 40px;
+    color: #14379e;
+}
+
 h3 {
     font-size: 24px;
     margin-bottom: 35px;
@@ -43,6 +49,85 @@ footer .linkedin img {
 .container-about {
     display: flex;
     height: 100vh; /* Full viewport height */
+}
+
+#destinations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.row img {
+    width: 100%; /* Adjust width to fit the column */
+    height: 600px; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */
+}
+
+#destinations-indonesia {
+    background-image: url('/static/img/indonesia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#destinations-maldives {
+    background-image: url('/static/img/maldives-air.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#destinations-galapagos {
+    background-image: url('/static/img/galapagos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#destinations-polynesia {
+    background-image: url('/static/img/polynesia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#destinations-papua {
+    background-image: url('/static/img/papua.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+#destinations-fiji {
+    background-image: url('/static/img/fiji.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+#destination-info {
+    background-color: white;
+}
+
+#destination-info p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#destination-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .left-side, .right-side {
@@ -165,5 +250,17 @@ footer {
     display: none;
 }
 
-
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Optional: add shadows and rounded corners for a cleaner look */
+  .shadow-1-strong {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
 
